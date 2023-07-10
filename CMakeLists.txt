@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.24)
+project(load_balancing)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(load_balancing main.cpp)
+add_executable(performance_comparison performance_comparison.cpp)
+add_executable(simulation_performance simulation_performance.cpp)
+add_executable(daco_performance daco_performance.cpp)
+add_executable(algorithm_execution_time algorithm_execution_time.cpp)
